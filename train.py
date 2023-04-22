@@ -4,7 +4,7 @@ from torch.utils.data import DataLoader
 
 import numpy as np
 
-from cora_datasets_copy import cora_import
+from cora_datasets import cora_import
 from CLM import CLM_Model
 from utils import get_pairs
 
